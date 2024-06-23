@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+
+<body>
+    <!--Website header started -->
+    <header id="header" class="header">
+        <div class="navbar">
+            <div class="navbar__left">
+                <img class="navbar__logo" src="./assets/icons/logo.png" alt="">
+                <h3 class="navbar__text">Alpha Drive</h3>
+            </div>
+            <div class="navbar__right">
+                <!--Website header menu start -->
+                <nav>
+                    <ul class="navbar__nav">
+                        <li><a class="navbar__nav-item" href="#first_section">Features</a></li>
+                        <li><a class="navbar__nav-item" href="#second_section">Plans & Pricing</a></li>
+                        <li><a class="navbar__nav-item" href="#third_section">Contact</a></li>
+                        <li><a class="navbar__nav-item" href="#header">Home</a></li>
+                    </ul>
+                </nav>
+                <button class="header__nav-item--signin" type="button">Sign in</button>
+
+                <!--Website header menu end -->
+            </div>
+        </div>
+
+
+        <div class="showCase">
+
+            <!--Website showCase start -->
+
+            <div class="showCase__left">
+
+                <!--Website showCase-Left start -->
+                <div class="showCase__hero">
+                    <h1 class="showCase__bigTitle">Keep life organized and work moving—all in one place</h1>
+                    <p class="showCase__smallTitle">Alpha Drive gives you secure access to all your files. Collaborate
+                        with
+                        friends, family, and
+                        coworkers from any device.</p>
+                </div>
+                <div class="showCase__buttons">
+                    <button type="button" class="showCase__button--get-started">Get started</button>
+                    <button type="button" class="showCase__button--learn-more">Learn more</button>
+                </div>
+
+                <!--Website showCase=Left end -->
+            </div>
+            <div class="showCase__right">
+                <!--Website showCase-Right start -->
+                <div class="image__accent">
+
+                    <div class="first_team">
+
+                        <div class="finance">
+                            <img class="finance_first-img" src="./assets/icons/green_file.png" alt="">
+                            <div class="about__finance">
+
+                                <div class="finance__p">
+                                    <p class="finance__xlsx">Finance.xlsx</p>
+                                    <p class="finance__mb">1.3 MB</p>
+                                </div>
+
+                                <div class="finance_imgs">
+                                    <img class="finance_img1" src="./assets/img/Avatar.png" alt="">
+                                    <img class="finance_img2" src="./assets/img/Avatar (1).png" alt="">
+                                    <img class="finance_img3" src="./assets/img/Avatar (2).png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="folder">
+                            <img src="./assets/icons/Folder.png" alt="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="second_team">
+
+                        <div class="audio">
+                            <img src="./assets/icons/Audio.png" alt="">
+                        </div>
+                        <div class="storage">
+                            <img class="storage_img" src="./assets/img/Chart.png" alt="">
+                            <div class="gb_tb">
+                                <p class="num">769
+                                <p class="volume">GB</p>
+                                </p>
+                                <p class="num">/ 1
+                                <p class="volume">TB</p>
+                                </p>
+                            </div>
+                            <p class="storage_p">Available storage</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="third_team">
+
+                        <div class="image">
+                            <img src="./assets/icons/image.png" alt="">
+                        </div>
+
+                        <div class="drive_pdf">
+                            <img src="./assets/icons/yellow_file.png" alt="">
+                            <p class="drive_p">Get started with Drive.pdf</p>
+                            <img src="./assets/icons/more-horizontal.png" alt="">
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <!--Website showCase-Right end -->
+            </div>
+
+            <!--Website showCase end -->
+
+        </div>
+    </header>
+
+
+
+
+    <main class="main">
+
+        <!--Website main start -->
+
+        <section id="first_section" class="first_section">
+            <div class="first_section-div">
+                <!--first_section start -->
+                <div class="service">
+                    <p class="showCase__bigTitle">Features</p>
+                    <p class="have_services">We have a service that puts our customers first.</p>
+                </div>
+
+                <div class="cards">
+                    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
+                        space-between="30" free-mode="true">
+
+                    </swiper-container>
+                </div>
+            </div>
+        </section>
+        <section id="second_section" class="second_section">
+            <div class="pricing-plans">
+                <div class="pricing-plans__header">
+                    <p class="pricing-plans__title">
+                        Plans & Pricing
+                    </p>
+                    <p class="pricing-plans__subtitle">
+                        We have several plans to suit your needs.
+                    </p>
+                </div>
+
+                <div class="pricing-plans__list">
+
+                    <!-- planCard start -->
+                    <div class="pricing-plans__item" data-aos="zoom-in">
+                        <div class="card_top">
+                            <p class="pricing-plan__badge">Your current plan</p>
+                        </div>
+                        <div class="plan_h3">
+                            <p class="pricing-plan__title">Basic</p>
+                            <p class="pricing-plan__price">Free</p>
+                            <p class="pricing-plan__description">10 GB of storage to help you store or share a few files
+                                for a
+                                quick
+                                project. Suitable for beginners.</p>
+                            <div class="pricing-plan__feature">
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">Up to 5 devices</p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">Family Room folder for
+                                    sharing</p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/close.png"
+                                        alt="">Centralised billing
+                                </p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/close.png"
+                                        alt="">Advanced security</p>
+                            </div>
+                            <button id="first-btn" class="pricing-plan__btn" type="button">Purchase</button>
+                        </div>
+                    </div>
+
+
+                    <div class="pricing-plans__item" data-aos="zoom-in" id="center_card">
+                        <div class="card_top" id="center__top">
+                            <p class="pricing-plan__badge1">Recommended</p>
+                        </div>
+                        <div class="plan_h3">
+                            <p class="pricing-plan__title">Plus</p>
+                            <p class="pricing-plan__price">$8.9/month</p>
+                            <p class="pricing-plan__description">Simple, secure file storage and sharing, with built-in
+                                tools to
+                                help
+                                you
+                                get and stay organised.</p>
+                            <div class="pricing-plan__feature">
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">As many devices as you
+                                    need</p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">Family Room folder for
+                                    sharing</p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">Centralised billing
+                                </p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/close.png"
+                                        alt="">Advanced security</p>
+                            </div>
+                            <button id="center-btn" class="pricing-plan__btn" type="button">Purchase</button>
+                        </div>
+                    </div>
+
+
+                    <div class="pricing-plans__item" data-aos="zoom-in">
+                        <div class="card_top" id="last__top">
+                            <p class="pricing-plan__badge2">Advanced</p>
+                        </div>
+                        <div class="plan_h3">
+                            <p class="pricing-plan__title">Professional</p>
+                            <p class="pricing-plan__price">$17.5/month</p>
+                            <p class="pricing-plan__description">Professional accounts and a place for family sharing to
+                                help
+                                keep
+                                your
+                                loved ones organised and connected.</p>
+                            <div class="pricing-plan__feature">
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">As many devices as you
+                                    need</p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">Family Room folder for
+                                    sharing</p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">Centralised billing
+                                </p>
+                                <p class="pricing-plan__feature--available"><img src="./assets/icons/check.png"
+                                        alt="">Advanced security</p>
+                            </div>
+                            <button id="last-btn" class="pricing-plan__btn" type="button">Purchase</button>
+                        </div>
+                    </div>
+
+                    <!-- planCard end -->
+                </div>
+            </div>
+        </section>
+        <section id="third_section" class="third_section">
+            <div class="third_section_div">
+                <div class="third_sec__left">
+                    <img src="./assets/img/mail.png" alt="">
+                </div>
+
+                <div class="third_sec__right">
+                    <div class="thirds_sec__texts">
+                        <p class="question_h3">Have a questions?</p>
+                        <p class="contact_p">Feel free to contact us.</p>
+                    </div>
+                    <div class="for-question_box">
+                        <form action="">
+                            <p class="question_p">Email</p>
+                            <input class="email-inp" type="text" placeholder="Your Email">
+                            <p class="question_p">Questions</p>
+                            <div class="textarea_question">
+                                <textarea id="question-inp" rows="8" placeholder="Your question"></textarea>
+                            </div>
+
+                            <button type="button" class="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- main end -->
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-div">
+            <div class="footer__contact">
+                <div class="footer__contact-name">
+                    <img class="footer__logo" src="./assets/icons/logo.png" alt="">
+                    <h3 class="footer__name">Alpha Drive</h3>
+                    <p class="footer__about-p">Alpha Drive gives you secure access to all your files.</p>
+                </div>
+                <div class="footer__cotact-item">
+                    <p class="footer__contact-text"><img src="./assets/icons/email.png"
+                            class="footer__contact-icon">alpha@drive.com</p>
+                    <p class="footer__contact-text"><img src="./assets/icons/phone.png"
+                            class="footer__contact-icon">(406)
+                        555-0120</p>
+                    <p class="footer__contact-text"><img src="./assets/icons/pin.png" class="footer__contact-icon">6391
+                        Elgin St. Celina, Delaware 10299</p>
+                </div>
+            </div>
+            <div class="footer__sitemap">
+                <div class="footer__sitemap-title">
+                    <p class="footer__sitemap-title--text">Sitemap</p>
+                </div>
+                <a href="#header" class="footer__sitemap-item">Home</a>
+                <a href="#first_section" class="footer__sitemap-item">Features</a>
+                <a href="#second_section" class="footer__sitemap-item">Plans & Pricing</a>
+                <a href="#third_section" class="footer__sitemap-item">Contact</a>
+            </div>
+            <div class="footer__social-media">
+                <p class="footer__social-text">Social Media</p>
+                <div class="footer__social-icons">
+                    <img src="./assets/icons/facebook.png" alt="" class="footer__social-icon">
+                    <img src="./assets/icons/twitter.png" alt="" class="footer__social-icon">
+                    <img src="./assets/icons/linkedin.png" alt="" class="footer__social-icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
