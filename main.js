@@ -30,6 +30,7 @@ let mySwipper = document.querySelector('.mySwiper')
 const ReadCards = () => {
     cards.map((v) => {
         let card = document.createElement("swiper-slide")
+        card.classList.add('card')
         card.innerHTML = `<div class='all_cards'>
           <img class="card_img" src='${v.img}'>
           <div class='card'>
